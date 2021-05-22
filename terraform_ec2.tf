@@ -63,7 +63,7 @@ resource "aws_launch_template" "foo" {
   }
 
   monitoring {
-    enabled = false
+    enabled = true
   }
 
   network_interfaces {
@@ -71,7 +71,7 @@ resource "aws_launch_template" "foo" {
   }
 
   placement {
-    availability_zone = "us-west-2a"
+    availability_zone = "us-west-2b"
   }
 
   ram_disk_id = "test"

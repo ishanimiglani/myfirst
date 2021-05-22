@@ -63,7 +63,7 @@ resource "aws_launch_template" "foo" {
   }
 
   monitoring {
-    enabled = true
+    enabled = false
   }
 
   network_interfaces {

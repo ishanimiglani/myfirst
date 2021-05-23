@@ -22,7 +22,7 @@ resource "aws_launch_template" "foo" {
     cpu_credits = "standard"
   }
 
-  disable_api_termination = false
+  disable_api_termination = true
 
   ebs_optimized = false
 
